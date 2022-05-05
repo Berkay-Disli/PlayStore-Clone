@@ -104,7 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				232AC02C28243BC100A17CDB /* README.md */,
-				232AC02528243B1F00A17CDB /* images */,
 				23014B542809DE9F000FE967 /* AppStore */,
 				23014B532809DE9F000FE967 /* Products */,
 			);
@@ -123,6 +122,7 @@
 		23014B542809DE9F000FE967 /* AppStore */ = {
 			isa = PBXGroup;
 			children = (
+				232AC02528243B1F00A17CDB /* images */,
 				231F037F280A1EE700E8701B /* Components */,
 				23014B812809E8D0000FE967 /* Model */,
 				23014B802809E8CE000FE967 /* View */,
