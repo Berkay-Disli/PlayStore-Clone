@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		23014B562809DE9F000FE967 /* AppStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23014B552809DE9F000FE967 /* AppStoreApp.swift */; };
-		23014B582809DE9F000FE967 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23014B572809DE9F000FE967 /* ContentView.swift */; };
+		23014B582809DE9F000FE967 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23014B572809DE9F000FE967 /* Home.swift */; };
 		23014B5A2809DEA2000FE967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23014B592809DEA2000FE967 /* Assets.xcassets */; };
 		23014B5D2809DEA2000FE967 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23014B5C2809DEA2000FE967 /* Preview Assets.xcassets */; };
-		23014B672809DEA2000FE967 /* AppStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23014B662809DEA2000FE967 /* AppStoreTests.swift */; };
-		23014B712809DEA2000FE967 /* AppStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23014B702809DEA2000FE967 /* AppStoreUITests.swift */; };
-		23014B732809DEA2000FE967 /* AppStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23014B722809DEA2000FE967 /* AppStoreUITestsLaunchTests.swift */; };
+		23014B832809E8E1000FE967 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23014B822809E8E1000FE967 /* Categories.swift */; };
+		23014B852809EEA6000FE967 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23014B842809EEA6000FE967 /* HeaderView.swift */; };
+		231F03762809F47700E8701B /* Apps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F03752809F47700E8701B /* Apps.swift */; };
+		231F03782809F48100E8701B /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F03772809F48100E8701B /* Movies.swift */; };
+		231F037A2809F48400E8701B /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F03792809F48400E8701B /* Books.swift */; };
+		231F037C280A179700E8701B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F037B280A179700E8701B /* Product.swift */; };
+		231F037E280A17ED00E8701B /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F037D280A17ED00E8701B /* ProductViewModel.swift */; };
+		231F0381280A1F0200E8701B /* HScrollProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F0380280A1F0200E8701B /* HScrollProducts.swift */; };
+		231F0383280A201400E8701B /* ScrollHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F0382280A201400E8701B /* ScrollHeader.swift */; };
+		231F0385280A209E00E8701B /* ScrollHeaderSingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F0384280A209E00E8701B /* ScrollHeaderSingle.swift */; };
+		232AC0302824437600A17CDB /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 232AC02D2824437600A17CDB /* img1.png */; };
+		232AC0312824437600A17CDB /* img2.png in Resources */ = {isa = PBXBuildFile; fileRef = 232AC02E2824437600A17CDB /* img2.png */; };
+		232AC0322824437600A17CDB /* img3.png in Resources */ = {isa = PBXBuildFile; fileRef = 232AC02F2824437600A17CDB /* img3.png */; };
+		23BAE419280C9E36000B2127 /* SizeOzel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BAE418280C9E36000B2127 /* SizeOzel.swift */; };
+		23BAE41B280C9EA6000B2127 /* UstSiralar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BAE41A280C9EA6000B2127 /* UstSiralar.swift */; };
+		23BAE41D280C9F0A000B2127 /* Etkinlikler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BAE41C280C9F0A000B2127 /* Etkinlikler.swift */; };
+		23DAC9342809F24800662E7B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DAC9332809F24800662E7B /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +50,29 @@
 /* Begin PBXFileReference section */
 		23014B522809DE9F000FE967 /* AppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23014B552809DE9F000FE967 /* AppStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreApp.swift; sourceTree = "<group>"; };
-		23014B572809DE9F000FE967 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		23014B572809DE9F000FE967 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		23014B592809DEA2000FE967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23014B5C2809DEA2000FE967 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		23014B622809DEA2000FE967 /* AppStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		23014B662809DEA2000FE967 /* AppStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreTests.swift; sourceTree = "<group>"; };
 		23014B6C2809DEA2000FE967 /* AppStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		23014B702809DEA2000FE967 /* AppStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreUITests.swift; sourceTree = "<group>"; };
-		23014B722809DEA2000FE967 /* AppStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		23014B822809E8E1000FE967 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		23014B842809EEA6000FE967 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		231F03752809F47700E8701B /* Apps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps.swift; sourceTree = "<group>"; };
+		231F03772809F48100E8701B /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		231F03792809F48400E8701B /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		231F037B280A179700E8701B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		231F037D280A17ED00E8701B /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		231F0380280A1F0200E8701B /* HScrollProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HScrollProducts.swift; sourceTree = "<group>"; };
+		231F0382280A201400E8701B /* ScrollHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollHeader.swift; sourceTree = "<group>"; };
+		231F0384280A209E00E8701B /* ScrollHeaderSingle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollHeaderSingle.swift; sourceTree = "<group>"; };
+		232AC02C28243BC100A17CDB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		232AC02D2824437600A17CDB /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img1.png; path = "../../../../Downloads/AppMockUp Screenshots/Apple iPhone 11 Pro Max (1242x2688)/img1.png"; sourceTree = "<group>"; };
+		232AC02E2824437600A17CDB /* img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img2.png; path = "../../../../Downloads/AppMockUp Screenshots/Apple iPhone 11 Pro Max (1242x2688)/img2.png"; sourceTree = "<group>"; };
+		232AC02F2824437600A17CDB /* img3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img3.png; path = "../../../../Downloads/AppMockUp Screenshots/Apple iPhone 11 Pro Max (1242x2688)/img3.png"; sourceTree = "<group>"; };
+		23BAE418280C9E36000B2127 /* SizeOzel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeOzel.swift; sourceTree = "<group>"; };
+		23BAE41A280C9EA6000B2127 /* UstSiralar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UstSiralar.swift; sourceTree = "<group>"; };
+		23BAE41C280C9F0A000B2127 /* Etkinlikler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Etkinlikler.swift; sourceTree = "<group>"; };
+		23DAC9332809F24800662E7B /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +103,9 @@
 		23014B492809DE9F000FE967 = {
 			isa = PBXGroup;
 			children = (
+				232AC02C28243BC100A17CDB /* README.md */,
+				232AC02528243B1F00A17CDB /* images */,
 				23014B542809DE9F000FE967 /* AppStore */,
-				23014B652809DEA2000FE967 /* AppStoreTests */,
-				23014B6F2809DEA2000FE967 /* AppStoreUITests */,
 				23014B532809DE9F000FE967 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,8 +123,11 @@
 		23014B542809DE9F000FE967 /* AppStore */ = {
 			isa = PBXGroup;
 			children = (
+				231F037F280A1EE700E8701B /* Components */,
+				23014B812809E8D0000FE967 /* Model */,
+				23014B802809E8CE000FE967 /* View */,
+				23014B7F2809E8C5000FE967 /* ViewModel */,
 				23014B552809DE9F000FE967 /* AppStoreApp.swift */,
-				23014B572809DE9F000FE967 /* ContentView.swift */,
 				23014B592809DEA2000FE967 /* Assets.xcassets */,
 				23014B5B2809DEA2000FE967 /* Preview Content */,
 			);
@@ -110,21 +142,57 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		23014B652809DEA2000FE967 /* AppStoreTests */ = {
+		23014B7F2809E8C5000FE967 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				23014B662809DEA2000FE967 /* AppStoreTests.swift */,
+				231F037D280A17ED00E8701B /* ProductViewModel.swift */,
 			);
-			path = AppStoreTests;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		23014B6F2809DEA2000FE967 /* AppStoreUITests */ = {
+		23014B802809E8CE000FE967 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				23014B702809DEA2000FE967 /* AppStoreUITests.swift */,
-				23014B722809DEA2000FE967 /* AppStoreUITestsLaunchTests.swift */,
+				23DAC9332809F24800662E7B /* MainTabView.swift */,
+				23014B572809DE9F000FE967 /* Home.swift */,
+				231F03752809F47700E8701B /* Apps.swift */,
+				231F03772809F48100E8701B /* Movies.swift */,
+				231F03792809F48400E8701B /* Books.swift */,
 			);
-			path = AppStoreUITests;
+			path = View;
+			sourceTree = "<group>";
+		};
+		23014B812809E8D0000FE967 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23014B822809E8E1000FE967 /* Categories.swift */,
+				231F037B280A179700E8701B /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		231F037F280A1EE700E8701B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				23014B842809EEA6000FE967 /* HeaderView.swift */,
+				231F0380280A1F0200E8701B /* HScrollProducts.swift */,
+				231F0382280A201400E8701B /* ScrollHeader.swift */,
+				231F0384280A209E00E8701B /* ScrollHeaderSingle.swift */,
+				23BAE418280C9E36000B2127 /* SizeOzel.swift */,
+				23BAE41A280C9EA6000B2127 /* UstSiralar.swift */,
+				23BAE41C280C9F0A000B2127 /* Etkinlikler.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		232AC02528243B1F00A17CDB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				232AC02D2824437600A17CDB /* img1.png */,
+				232AC02E2824437600A17CDB /* img2.png */,
+				232AC02F2824437600A17CDB /* img3.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +300,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				23014B5D2809DEA2000FE967 /* Preview Assets.xcassets in Resources */,
+				232AC0322824437600A17CDB /* img3.png in Resources */,
 				23014B5A2809DEA2000FE967 /* Assets.xcassets in Resources */,
+				232AC0312824437600A17CDB /* img2.png in Resources */,
+				232AC0302824437600A17CDB /* img1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +328,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23014B582809DE9F000FE967 /* ContentView.swift in Sources */,
+				231F03782809F48100E8701B /* Movies.swift in Sources */,
+				23014B582809DE9F000FE967 /* Home.swift in Sources */,
+				231F037C280A179700E8701B /* Product.swift in Sources */,
 				23014B562809DE9F000FE967 /* AppStoreApp.swift in Sources */,
+				23BAE419280C9E36000B2127 /* SizeOzel.swift in Sources */,
+				231F0385280A209E00E8701B /* ScrollHeaderSingle.swift in Sources */,
+				23BAE41B280C9EA6000B2127 /* UstSiralar.swift in Sources */,
+				231F037E280A17ED00E8701B /* ProductViewModel.swift in Sources */,
+				231F0383280A201400E8701B /* ScrollHeader.swift in Sources */,
+				23014B832809E8E1000FE967 /* Categories.swift in Sources */,
+				23BAE41D280C9F0A000B2127 /* Etkinlikler.swift in Sources */,
+				231F037A2809F48400E8701B /* Books.swift in Sources */,
+				231F03762809F47700E8701B /* Apps.swift in Sources */,
+				23014B852809EEA6000FE967 /* HeaderView.swift in Sources */,
+				23DAC9342809F24800662E7B /* MainTabView.swift in Sources */,
+				231F0381280A1F0200E8701B /* HScrollProducts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +351,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23014B672809DEA2000FE967 /* AppStoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +358,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23014B732809DEA2000FE967 /* AppStoreUITestsLaunchTests.swift in Sources */,
-				23014B712809DEA2000FE967 /* AppStoreUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
