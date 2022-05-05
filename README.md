@@ -9,7 +9,7 @@ A simple clone of Play Store (ironically) using SwiftUI with MVVM architecture.
 - Custom Model Presentation
 - Smoothly Delivered Moving and Opacity Transitions
  
-## Concept
+## Showcase
 
 
 <p align="middle">
