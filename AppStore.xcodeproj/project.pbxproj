@@ -21,9 +21,6 @@
 		231F0381280A1F0200E8701B /* HScrollProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F0380280A1F0200E8701B /* HScrollProducts.swift */; };
 		231F0383280A201400E8701B /* ScrollHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F0382280A201400E8701B /* ScrollHeader.swift */; };
 		231F0385280A209E00E8701B /* ScrollHeaderSingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F0384280A209E00E8701B /* ScrollHeaderSingle.swift */; };
-		232AC0302824437600A17CDB /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 232AC02D2824437600A17CDB /* img1.png */; };
-		232AC0312824437600A17CDB /* img2.png in Resources */ = {isa = PBXBuildFile; fileRef = 232AC02E2824437600A17CDB /* img2.png */; };
-		232AC0322824437600A17CDB /* img3.png in Resources */ = {isa = PBXBuildFile; fileRef = 232AC02F2824437600A17CDB /* img3.png */; };
 		23BAE419280C9E36000B2127 /* SizeOzel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BAE418280C9E36000B2127 /* SizeOzel.swift */; };
 		23BAE41B280C9EA6000B2127 /* UstSiralar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BAE41A280C9EA6000B2127 /* UstSiralar.swift */; };
 		23BAE41D280C9F0A000B2127 /* Etkinlikler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BAE41C280C9F0A000B2127 /* Etkinlikler.swift */; };
@@ -66,9 +63,6 @@
 		231F0382280A201400E8701B /* ScrollHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollHeader.swift; sourceTree = "<group>"; };
 		231F0384280A209E00E8701B /* ScrollHeaderSingle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollHeaderSingle.swift; sourceTree = "<group>"; };
 		232AC02C28243BC100A17CDB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		232AC02D2824437600A17CDB /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img1.png; path = "../../../../Downloads/AppMockUp Screenshots/Apple iPhone 11 Pro Max (1242x2688)/img1.png"; sourceTree = "<group>"; };
-		232AC02E2824437600A17CDB /* img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img2.png; path = "../../../../Downloads/AppMockUp Screenshots/Apple iPhone 11 Pro Max (1242x2688)/img2.png"; sourceTree = "<group>"; };
-		232AC02F2824437600A17CDB /* img3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img3.png; path = "../../../../Downloads/AppMockUp Screenshots/Apple iPhone 11 Pro Max (1242x2688)/img3.png"; sourceTree = "<group>"; };
 		23BAE418280C9E36000B2127 /* SizeOzel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeOzel.swift; sourceTree = "<group>"; };
 		23BAE41A280C9EA6000B2127 /* UstSiralar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UstSiralar.swift; sourceTree = "<group>"; };
 		23BAE41C280C9F0A000B2127 /* Etkinlikler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Etkinlikler.swift; sourceTree = "<group>"; };
@@ -104,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				232AC02C28243BC100A17CDB /* README.md */,
-				232AC02528243B1F00A17CDB /* images */,
 				23014B542809DE9F000FE967 /* AppStore */,
 				23014B532809DE9F000FE967 /* Products */,
 			);
@@ -183,16 +176,6 @@
 				23BAE41C280C9F0A000B2127 /* Etkinlikler.swift */,
 			);
 			path = Components;
-			sourceTree = "<group>";
-		};
-		232AC02528243B1F00A17CDB /* images */ = {
-			isa = PBXGroup;
-			children = (
-				232AC02D2824437600A17CDB /* img1.png */,
-				232AC02E2824437600A17CDB /* img2.png */,
-				232AC02F2824437600A17CDB /* img3.png */,
-			);
-			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,10 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23014B5D2809DEA2000FE967 /* Preview Assets.xcassets in Resources */,
-				232AC0322824437600A17CDB /* img3.png in Resources */,
 				23014B5A2809DEA2000FE967 /* Assets.xcassets in Resources */,
-				232AC0312824437600A17CDB /* img2.png in Resources */,
-				232AC0302824437600A17CDB /* img1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
