@@ -1,8 +1,8 @@
 # PlayStoreClone
 A simple clone of Play Store (ironically) using SwiftUI with MVVM architecture.
-
+ 
 ## Architecture
-- SwiftUI and MVVM
+- SwiftUI and MVVM Architecture
 - Position, Rotation, Scale and Hue Animations
 - Native Tab Bar System
 - Vertical and Horizontal ScrollViews, Lazy Stacks and Custom Items
